@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit Menu Item</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="edit-menu">
+            <div id="header-container">
+                <header class="top">
+                    <span class="col-2" style="margin-left: 20px;">truYum</span>
+                    <div class="col-2">
+                        <nav class="navi">
+                            <a href="menu-item-list-admin.html" style="color: white;">Menu</a>
+                        </nav>
+                    </div>
+                </header>
+            </div><!--End of header container-->
+            <br>
+            <div class="page-content">
+                <p class="heading">Edit Menu Items</p>
+                <form class="edit-form" name="editForm" autocomplete="yes" action="edit-menu-item-status.html" onsubmit = "return(validate());">
+                    <div class="form-1">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name"  autocomplete="yes"  style="width: 100%;">
+                    </div>
+                    <div class="form-2">
+                    <div class="col-4">
+                        <label for="price">Price (Rs.)</label><br>
+                        <input type="text" name="price" id="price" autocomplete="yes">
+                    </div>
+                    <div class="col-4">
+                        <label>Active</label><br>
+                        <input type="radio" name="active-yes" id="active-yes" autocomplete="yes" checked>
+                        <label for="active-yes">Yes</label>
+                        <input type="radio" name="active-no" id="active-no">
+                        <label for="active-no">No</label>
+                    </div>
+                    <div class="col-4">
+                        <label for="date-of-launch">Date Of Launch</label><br>
+                        <input type="text" name="dateOfLaunch" id="date-of-launch" autocomplete="yes" >
+                    </div>
+                    <div class="col-4">
+                        <label for="category">Category</label><br>
+                        <select name="category" id="category" autocomplete="yes">
+                            <option value="Starters">Starters</option>
+                            <option value="Main Course">Main Course</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Drinks">Drinks</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="form-3">
+                        <input type="checkbox" name="free-delivery" id="free-delivery">
+                        <label for="free-delivery">Free Delivery</label>
+                    </div>
+                    <div class="form-3" style="padding-top: 20px;">
+                        <a href="edit-menu-item-status.html">
+                        <input type="submit" value="Save" style="width: 150px; height: 50px; background-color: darkblue; color: white;">
+                        </a>
+                    </div>
+                </form>
+            </div>
+            <footer>
+                <div style="margin-top: 12px; margin-left: 10px;">Copyright &copy; 2019</div>
+            </footer>
+        </div>
+    </body>
+</html>

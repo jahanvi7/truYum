@@ -1,0 +1,81 @@
+.choose-user button{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: #74e6ee;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 28px;font-weight: bold;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    background-color: rgb(173, 169, 169);
+}
+#header-container{
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    color: #ffffff;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.col-2{
+    float: left;
+    width: 48%;
+    height: 50px;   
+}
+.navi a{
+    width: 15%;
+    float: right;
+    margin-top: 10px;
+    font-size: .7em;
+}
+.menu-table{
+    text-align: center;
+    margin: 0px auto;
+    width: 80%;
+    line-height: 1.5;
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
+.heading{
+    font-size: 3em;
+    margin-left: 150px;
+}
+form{
+    box-align: center;
+}
+.edit-form{
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    line-height: 2;
+}
+.form-1 input{
+    width: auto;
+}
+.col-4{
+    float: left;
+    width: 25%;
+}
+#cart-table{
+    
+    text-align: center;
+    margin-left: 150px;
+    width: 50%;
+    line-height: 1.5;
+}
